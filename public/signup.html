@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <main id="signup-page">
+        <div class="form-Contianer">
+            <div>
+                <img id="signup-img" src="./images/signupimage.jpg" alt=""></img>
+            </div>
+            <div>
+                <h1>Sign up to BookStore</h1>
+                <form action="/submit_signup" method="POST">
+                    <label>Email</label>
+                    <input type="email" placeholder="">
+                    <br>
+    
+                    <label>Password</label>
+                    <input type="password" placeholder="8+ characters">
+                    <br>
+                    <button class="signup-button">Sign Up</button>
+                </form>
+                <p>Already have an account?<a href="/signin">Sign In</a></p>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
